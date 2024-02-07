@@ -50,6 +50,19 @@ header {
     padding: 20px 0;
 }
 
+.header-container {
+    text-align: center; /* Center the content horizontally */
+    margin-bottom: 20px; /* Add some space between the header image and the header text */
+}
+
+.header-container img {
+    max-width: 100%;
+    height: auto;
+    border: 4px dotted black; /* Add a dotted black border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+}
+
+
 h1 {
     margin: 0;
     font-size: 5vw;
@@ -135,7 +148,9 @@ main {
     .stop {
         width: calc(100% - 40px); /* Adjusted width for smaller screens */
     }
-    
+    h1 {
+        font-size: 8vw;
+    }
     .stop h2 {
         font-size: 3vw; /* Adjusted font size for smaller screens */
     }
