@@ -1,0 +1,158 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://happywall-img-gallery.imgix.net/27385/manchester_map_display.jpg');
+    background-size: cover; /* Adjusted background size */
+    background-position: center bottom; /* Start at the bottom */
+    background-attachment: fixed; /* Optional: This keeps the background fixed while scrolling */
+}
+
+.navbar {
+    background-color: rgb(167, 167, 167);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 18px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    border-style: solid #000000;    
+    background: rgb(202,187,43);
+    background: linear-gradient(90deg, rgba(202,187,43,1) 0%, rgba(246,216,90,1) 49%, rgba(141,135,139,1) 81%);
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px rgba(66, 68, 90, 1);
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5vw;
+}
+
+main {
+    padding: 20px;
+}
+
+#pub-crawl-stops {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.stop {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-style: solid;    
+}
+
+.stop h2 {
+    font-family: Sixtyfour, sans-serif;
+    font-size: 2.1vw;
+    color: orange;
+    background-color: black;
+    padding: 10px 10px; /* Adjust padding to make it closer to the text */
+    margin: 3px; /* Remove any default margin */
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.stop p,
+.stop a {
+    margin: 5px 0; /* Adjust spacing between elements */
+    font-size: 1.1vw; /* Adjust font size */
+    display: block; /* Ensure they are displayed as block elements */
+}
+
+.stop img {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.stop a {
+    font-family: 'PT Sans', sans-serif;
+    color: inherit; /* Use the same color as the surrounding text */
+    text-decoration: none;
+    transition: border-color 0.3s ease;
+}
+
+.stop a:hover {
+    border-bottom-color: #ff00c3; /* Blue color on hover */
+}
+
+#pub-crawl-rules {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#pub-crawl-rules h2 {
+    color: #333;
+}
+
+#pub-crawl-rules ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#pub-crawl-rules li {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .stop {
+        width: calc(100% - 40px); /* Adjusted width for smaller screens */
+    }
+    
+    .stop h2 {
+        font-size: 3vw; /* Adjusted font size for smaller screens */
+    }
+
+    .stop p,
+    .stop a {
+        font-size: 3vw; /* Adjusted font size for smaller screens */
+        margin-top: 5px; /* Adjusted spacing between elements */
+    }
+}
+#footer { 
+    background-color: rgb(255, 255, 255);
+    padding: 5px; /* Increase padding for better spacing */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif; /* Use a consistent font family */
+    font-size: 14px; /* Adjust font size as needed */
+}
