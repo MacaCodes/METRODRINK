@@ -201,7 +201,10 @@ h1 {
     .nav-title {
         font-size: 3.1vw;
     }
-
+    .nav-list {
+        font-size: 2.5vw;
+    }
+    
     .quiz-container img {
         width: calc(100% - 40px);
         margin-bottom: 20px; /* Adjusted margin for smaller screens */
