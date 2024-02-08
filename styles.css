@@ -69,6 +69,7 @@ h1 {
     max-width: 100%;
     height: auto;
     border: 4px dotted black;
+    
     /* Add a dotted black border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* Add drop shadow */
@@ -146,7 +147,7 @@ h1 {
     /* Center the section horizontally */
     margin-bottom: 20px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-style: solid;
@@ -161,10 +162,10 @@ h1 {
     font-size: 2.1vw;
     color: orange;
     background-color: black;
-    padding: 10px 20px;
+    padding: 10px 10px;
     margin: 0;
     border-radius: 10px;
-    border: 5px solid black;
+    border: 10px solid black;
 }
 
 #pub-crawl-rules ul {
@@ -195,6 +196,10 @@ h1 {
         width: calc(100% - 40px);
         margin-bottom: 10px; /* Adjusted margin for smaller screens */
         padding: 10px;
+    }
+
+    .nav-title {
+        font-size: 3.1vw;
     }
 
     .quiz-container img {
