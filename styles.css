@@ -215,7 +215,7 @@ h1 {
     }
 
     .stop h2 {
-        font-size: 3vw;
+        font-size: 3.6vw;
         padding: 10px 20px; /* Adjusted padding for smaller screens */
     }
 
@@ -233,9 +233,14 @@ h1 {
     }
 
     #pub-crawl-rules h2 {
-        font-size: 3vw;
+        font-size: 3.6vw;
         padding: 10px 20px;
     }
+
+    #pub-crawl-rules ul {
+        font-size: 3vw;
+    }
+
 }
 
 
